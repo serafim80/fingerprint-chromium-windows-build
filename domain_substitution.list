@@ -4221,8 +4221,6 @@ content/browser/webauth/authenticator_common_impl.cc
 content/browser/webauth/authenticator_impl_unittest.cc
 content/browser/webauth/authenticator_mojom_traits_unittest.cc
 content/browser/webauth/authenticator_test_base.h
-content/browser/webauth/webauth_request_security_checker.cc
-content/browser/webauth/webauth_request_security_checker.h
 content/browser/webid/delegation/jwt_signer_unittest.cc
 content/browser/webid/idp_network_request_manager_unittest.cc
 content/browser/webrtc/webrtc_ip_permissions_browsertest.cc
