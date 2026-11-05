@@ -1,3 +1,9 @@
+> **This is a build repository, not the upstream project.**
+> It builds [fingerprint-chromium](https://github.com/adryfish/fingerprint-chromium) 144 for Windows x64 with one change:
+> `content/browser/webauth/webauth_request_security_checker.{cc,h}` are excluded from domain substitution,
+> so security keys work on Google pages (otherwise: `SecurityError: This is an invalid domain`).
+> Run the `build-x64` workflow manually; the package is uploaded as the `chromium` artifact.
+
 # ungoogled-chromium-windows
 
 Windows packaging for [ungoogled-chromium](//github.com/Eloston/ungoogled-chromium).
