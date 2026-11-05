@@ -1,3 +1,4 @@
+# Manual x64 build of fingerprint-chromium with the WebAuthn AppID fix.
 name: build-x64
 on:
   workflow_dispatch:
